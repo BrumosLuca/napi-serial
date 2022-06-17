@@ -1,0 +1,23 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "serial_addon",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrumosLuca/napi-serial.git"
+  },
+  "author": "Luca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrumosLuca/napi-serial/issues"
+  },
+  "homepage": "https://github.com/BrumosLuca/napi-serial#readme",
+  "description": ""
+}

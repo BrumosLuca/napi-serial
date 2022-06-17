@@ -1,0 +1,1 @@
+cmd_Release/serial_addon-native.node := ln -f "Release/obj.target/serial_addon-native.node" "Release/serial_addon-native.node" 2>/dev/null || (rm -rf "Release/serial_addon-native.node" && cp -af "Release/obj.target/serial_addon-native.node" "Release/serial_addon-native.node")
